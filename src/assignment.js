@@ -13,14 +13,10 @@ const assignment = {};
  * @returns number the sum of the numbers
  */
 function sumOfNumbers(arrayOfNumbers) {
-    let num = 0;
-    for (let i = 0; i < arrayOfNumbers.length; i++) {
-        num = num + arrayOfNumbers[i];
-    }
-    return num;
-    // return arrayOfNumbers.length;
+    
+    return arrayOfNumbers.length;
 }
-assignment.sumOfNumbers = sumOfNumbers;
+// assignment.sumOfNumbers = sumOfNumbers;
 
 /**
  * Challenge - 2
